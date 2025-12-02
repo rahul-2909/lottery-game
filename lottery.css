@@ -1,0 +1,49 @@
+/* .ticket{
+    border: 1px solid black;
+    border-radius: 14px;
+} */
+
+.LotteryContainer {
+  margin: 30px auto;
+  padding: 25px;
+  width: 450px;
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+  font-family: Arial, sans-serif;
+}
+
+.LotteryContainer h1 {
+  color: #333;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.LotteryContainer button {
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.LotteryContainer button:hover {
+  background: #0056d2;
+}
+
+.winText {
+  margin-top: 15px;
+  color: #28a745;
+  font-size: 20px;
+  font-weight: bold;
+  animation: pop 0.3s ease-in-out;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
